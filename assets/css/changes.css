@@ -169,3 +169,30 @@ a.button:hover,:active{
     font-size: 100%;
   }
 }
+
+@media screen and (max-width: 480px){
+  
+  #auditions > h1{
+    margin-left: 9%;
+  }
+  
+  #auditions {
+    width: 100%;
+    margin: 0 0 0 8%;
+  }
+
+  #clockdiv > div {
+    /*margin: 0;*/
+    padding: 0;
+    width: 21%;
+  }
+
+  #clockdiv div > span {
+    width: 75%;
+  }
+
+  a.button {
+    width: 40%;
+    margin: 3% 0 0 16%;
+  }
+}
