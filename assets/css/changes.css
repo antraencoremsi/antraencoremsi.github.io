@@ -45,7 +45,7 @@ a.button {
   transition: all 0.2s ;
 }
 
-a.button:hover,:active{
+a.button:hover, a.button:active{
   background-color: transparent !important;
 }
 
