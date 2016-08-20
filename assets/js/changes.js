@@ -47,6 +47,6 @@ initializeClock('clockdiv', deadline);
 
 $("#register").click(function() {
     $('html, body').animate({
-        scrollTop: $("#one").offset().top
+        scrollTop: $("#two").offset().top
     }, 2000);
 });
