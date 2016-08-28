@@ -56,7 +56,7 @@ a.button:hover, a.button:active{
 }
 
 .btnFloat:before {
-  content: 'Register Now!!';
+  content: 'Result!!';
   color: black;
   display: block;
   position: absolute;
