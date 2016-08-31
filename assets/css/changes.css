@@ -32,12 +32,11 @@
 
 /*Register Button*/
 a.button {
-  display: block;
   position: relative;
-  float: left;
   width: 220px;
   padding: 0;
-  margin: 30px 20px 10px 30px;
+  margin-top: 4%;
+  /*margin: 30px 20px 10px 30px;*/
   font-weight: 600;
   text-align: center;
   line-height: 50px;
@@ -56,9 +55,8 @@ a.button:hover, a.button:active{
 }
 
 .btnFloat:before {
-  content: 'Result!!';
+  content: 'Re-Auditions!!';
   color: black;
-  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -80,18 +78,25 @@ a.button:hover, a.button:active{
 }
 
 #auditions{
-  margin: 0 0 0 30%;
-  overflow: auto;
+  /*margin: 0 0 0 30%;*/
+  overflow: hidden
 }
 
 #auditions > h1{
-  margin-left: 20%;
+  /*margin-left: 20%;*/
 }
 
 #clockdiv{
   margin-left: 0%;
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    text-align: center;
+    padding: 10px;
+}
 
 /* MEMBERS PIC */
 .circle {
@@ -178,7 +183,7 @@ h4.name{
 
 @media screen and (max-width: 1280px){
   a.button{
-    width: 30%;
+    /*width: 30%;*/
   }
 
   .btnFloat:before{
@@ -191,7 +196,7 @@ h4.name{
 
 @media screen and (max-width: 925px){
   #auditions {
-    margin-left: 20%;
+    /*margin-left: 20%;*/
   }
   
   #clockdiv{
@@ -213,7 +218,7 @@ h4.name{
   }
   
   a.button{
-    margin-left: 26%;
+    /*margin-left: 26%;*/
   }
 
   .btnFloat:before{
@@ -229,7 +234,7 @@ h4.name{
 
 @media screen and (max-width: 600px){
   #auditions {
-    margin-left: 14%;
+    /*margin-left: 14%;*/
     overflow: hidden;
   }
 
@@ -250,7 +255,7 @@ h4.name{
   }
   
   a.button {
-    margin-left: 22%;
+    /*margin-left: 22%;*/
   }
 
   .btnFloat:before{
@@ -291,12 +296,12 @@ h4.name{
 @media screen and (max-width: 480px){
   
   #auditions > h1{
-    margin-left: 9%;
+    /*margin-left: 9%;*/
   }
   
   #auditions {
     width: 100%;
-    margin: 0 0 0 8%;
+    /*margin: 0 0 0 8%;*/
   }
 
   #clockdiv > div {
@@ -309,8 +314,13 @@ h4.name{
   }
 
   a.button {
-    width: 40%;
-    margin: 3% 0 0 16%;
+    width: 80%;
+    /*margin-top: 4%;*/
+    /*margin: 3% 0 0 16%;*/
+  }
+
+  .btnFloat:before {
+   width: 100%; 
   }
 
   .members{
