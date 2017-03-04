@@ -55,7 +55,7 @@ a.button:hover, a.button:active{
 }
 
 .btnFloat:before {
-  content: 'Re-Auditions!!';
+  content: 'Performance!!';
   color: black;
   position: absolute;
   top: 0;
